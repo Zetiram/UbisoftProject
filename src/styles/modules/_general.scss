@@ -1,0 +1,135 @@
+$borderBottomNav: #151515;
+$borderBottomMenu: #222222;
+$InputColor: #393939;
+$SemiTransparency: rgba(255, 255, 255, 0.2);
+$SemiTransparencyHover: rgba(255, 255, 255, 0.8);
+$YellowColor: #ba8100;
+$OrangeColor: #fa4309;
+$DarkBlueColor: #016aa4;
+$DarkGreenColor: #007c7c;
+$LightPinkColor: #df3fa4;
+$GrayColor: #eff3f4;
+$NewsBackgroundColor: #eff2f3;
+$NewsAPinkColor: #d80388;
+$BlueBtnColor: #006ef5;
+$ConnectBackgroundColor: #091225;
+$FooterBackground: #1d1e22;
+$FooterBtn: #2d2e31;
+$CorpAColor: #9b9b9b;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding-top: 3.3rem;
+}
+
+@mixin Hspacing {
+	margin: 0 5px;
+}
+
+@mixin alignCenter {
+	display: flex;
+	align-items: center;
+}
+
+@mixin menuSpace {
+	margin: 0 2rem;
+}
+
+@mixin menuListHSpace {
+	margin: 0 2.8rem;
+}
+
+@mixin ease {
+	transition: all 0.5s ease;
+}
+
+a, h2, p, h3, strong {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+ul {
+	list-style: none;
+}
+
+small {
+	color: black;
+}
+
+button {
+	border: none;
+	border-radius: 20px;
+	color:white;
+	z-index: 15;
+}
+
+.MenuContainer::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 90%;
+	height: 2px;
+	background-color: $borderBottomMenu;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.ExploreGames__Container--h2, .News__Container--h2, .News__Container--h2, .Store__Container--h2, .Carousel__Container--h2 {
+	color: black;
+	text-align: center;
+	padding: 1.5rem 0;
+}
+
+.ExplorePaddingBtn {
+	padding-bottom: 5rem;
+}
+
+.PaddingBtn {
+	padding-bottom: 6.5rem;
+}
+
+footer {
+	background-color: $FooterBackground;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.UConnectBtn {
+	background-color: $FooterBtn;
+	height: 4.5rem;
+	width: 90%;
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 30px;
+	margin-top: 1rem;
+
+}
+
+.LegalContainer {
+	text-align: center;
+	line-height: 11px;
+	padding: 0 25px;
+	margin-bottom: 2rem;
+}
+
+.LegalContainer--small {
+	color: white;
+	font-size: 12px;
+}
+
+.EsrbContainer {
+	margin-bottom: 3rem;
+}

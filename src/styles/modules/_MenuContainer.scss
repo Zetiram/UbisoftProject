@@ -1,0 +1,88 @@
+@use 'general' as *;
+
+.MenuCContainer {
+	position: fixed;
+	width: 100%;
+	z-index: 10001;
+}
+
+.MenuContainer {
+	background-color: black;
+	padding: 1.3rem 0px;
+	position: relative;
+}
+
+.MobileSubMenuContainer {
+	@include menuSpace;
+	@include alignCenter;
+	justify-content: space-between;
+	background-color: black;
+
+}
+
+.MobileSubMenuContainer--h3 {
+	color: white;
+	margin-bottom: 0.5rem;
+}
+
+.MobileSubMenuContainer--img {
+	height: 7px;
+	width: 14px;
+}
+
+.ListContainer {
+	@include menuListHSpace;
+}
+
+.ListContainer li {
+	margin-top: 15px;
+/*	font-weight: bold;
+	font-size: 12px;*/
+
+}
+
+.MenuContainerDownload {
+	background-color: black;
+	padding: 1.5rem 0px;
+	height: 25rem;
+}
+
+.DownloadMenuContainer {
+	@include alignCenter;
+	flex-direction: column;
+}
+
+.DMenuContainer {
+	@include alignCenter;
+	margin-bottom: 2rem;
+}
+
+.DMenuContainer--img {
+	height: 15px;
+	margin-left: 5px;
+}
+
+.DInputContainer {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	margin-bottom: 2rem;
+}
+
+.DInputContainer input {
+	width: 90%;
+	border: none;
+	height: 1.8rem;
+	border-radius: 15px;
+	background-color: $InputColor;
+	padding-left: 25px;
+	color: white;
+	background-image: url('../../src/assets/logos&Icons/searchIcon.svg');
+	background-repeat: no-repeat;
+	background-position: left 8px bottom 7.5px;
+	background-size: 12px;
+}
+
+.DInputContainer input::placeholder {
+	color: white;
+}

@@ -1,0 +1,64 @@
+@use 'general' as *;
+
+nav {
+	background-color: black;
+	@include alignCenter;
+	height: 3.3rem;
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	width: 100%;
+}
+
+nav:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 90%;
+	height: 2px;
+	background-color: $borderBottomNav;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.NavMobile {
+	display: flex;
+	justify-content: space-between;
+	@include Hspacing;
+	width: 100%;
+}
+
+.userIcon__Container--img, .UbisoftLogo__Container--img {
+	height: 35px;
+	width: 35px;
+}
+
+.userIcon__Container, .ellipseMenu__Container {
+	@include alignCenter;
+}
+
+/*.ellipseMenu__Container {
+	margin-top: 0.5rem;
+}*/
+.ellipseMenu__Container--img {
+	height: 28px;
+	width: 35px;
+	color: white;
+}
+
+
+
+/*Ubisoft Logo*/
+
+.UbisoftLogo__Container {
+	display: flex;
+	align-items: center;
+}
+
+.UbisoftLogo__Container--svg {
+	width: 7rem;
+	height: 30px;
+}
+
+
+

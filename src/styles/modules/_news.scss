@@ -1,0 +1,63 @@
+@use 'general' as *;
+
+.NewsContainerSection {
+	padding-bottom: 2rem;
+}
+
+.NewsContainerSection {
+	background-color: $NewsBackgroundColor;
+}
+
+.NewsP__Container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 15px;
+	margin-bottom: 1rem;
+}
+
+.NewsP__Container--p {
+	color: $NewsAPinkColor;
+	font-size: 1.2rem;
+	padding: 5px 0;
+}
+
+.ThumbnailContainer__AContainer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+.NewsItem__Container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 90%
+}
+
+.NewsItem__Container--img {
+	width: 100%;
+}
+
+.NewsItemText__Container {
+	margin-top: 0.5rem;
+}
+
+.NewsItemText__Container--h2 {
+	margin-top: 0.5rem;
+	color: black;
+}
+
+.NewsBtn__Container {
+	display: flex;
+	justify-content: center;
+}
+
+
+.active {
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+}

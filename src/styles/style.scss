@@ -1,0 +1,27 @@
+@use './modules/nav';
+@use './modules/fonts';
+@use './modules/general';
+@use './modules/MenuContainer';
+@use './modules/burger';
+@use './modules/CarouselItem';
+@use './modules/Btn';
+@use './modules/UbisoftPremium';
+@use './modules/ExploreGamesCarousel';
+@use './modules/news';
+@use './modules/store';
+@use './modules/Inside';
+@use './modules/promo';
+@use './modules/connect';
+@use './modules/socialMedia';
+@use './modules/linkContainer';
+@use './modules/corp';
+@use './modules/message';
+
+@media (min-width: 431px) {
+	nav, section, .SocialMedia__Container, footer {
+		display: none;
+	}
+}
+
+
+

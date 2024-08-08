@@ -1,0 +1,90 @@
+@use 'general' as *;
+.CarouselItemBtn__Container--btn {
+	height: 2.5rem;
+	width: 8rem;
+	font-size: 12px;
+}
+
+.BlackBtn {
+	background-color: black;
+	font-weight: bold;
+}
+
+.YellowBtn {
+	background-color: $YellowColor;
+}
+
+.OrangeBtn{
+	background-color: $OrangeColor;
+	height: 2.7rem;
+	border-radius: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+.OrangeBtn:nth-last-child(-n + 1){
+	display: none;
+}
+
+.BlueBtn {
+	background-color: $DarkBlueColor;
+
+}
+
+.PinkBtn {
+	background-color: $LightPinkColor;
+	height: 2.5rem;
+	width: 8rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+
+.BattleCoreArenaBtn {
+	width: 80%;
+
+}
+
+.CarouselLogosNBtns__Container{
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	width: 100%;
+	bottom: 5%;
+}
+
+.CarouselBtn--btn {
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 2.5rem;
+	width: 3rem;
+	background-color: $SemiTransparency;
+	@include ease;
+	cursor: pointer;
+}
+
+.CarouselBtn--btn:hover{
+	background-color: $SemiTransparency;
+
+}
+
+.CarouselLeft {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px; 
+}
+
+.CarouselRight {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.CarouselBtn--img {
+	width: 30%;
+}
+
+.BattleCoreArenaBtnContainer {
+	justify-content: center;
+}

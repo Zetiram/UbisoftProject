@@ -1,0 +1,62 @@
+@use 'general' as *;
+
+.UbiConnectSection {
+ background-color: $ConnectBackgroundColor;
+}
+
+.UbiConnectSection__Container {
+	position: relative;
+}
+
+.ConnectArrow__Container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+
+.ConnectArrow__Container--img {
+	width: 30px;
+}
+
+.UbiConnectImg__Container--img {
+	width: 100%;
+}
+
+.UbiConnectTitle__Container, .UbiConnectDesc__Container  {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.UbiConnectTitle__Container--h2 {
+	font-size: 42px;
+}
+
+.UbiConnectDesc__Container {
+	margin-bottom: 2rem;
+}
+
+.UbiConnectDesc__Container--p {
+	font-size: 26px;
+	line-height: 1.8rem;
+	margin-bottom: -5px;
+}
+
+.UbiConnectDesc__Container--strong {
+	font-size: 24px;
+}
+
+.UbiConnectBtn__Container {
+	display: flex;
+	justify-content: center;
+}
+
+.UbiConnectBtn__Container--btn {
+	height: 2.7rem;
+	width: 75%;
+	background-color: $BlueBtnColor;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-bottom: 2rem;
+}
+

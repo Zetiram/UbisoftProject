@@ -1,0 +1,32 @@
+@use 'general' as *;
+
+.ThumbnailContainer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 1rem;
+}
+
+.StoreItems__Container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+	position: relative;
+}
+
+.StoreItems__Container--img {
+	width: 90%;
+}
+
+.StoreItems__Container--h3 {
+	position: absolute;
+	z-index: 1;
+	padding: 1rem;
+	top: 0;
+	text-align: center;
+	font-size: 18px;
+	width: 90%;
+	background: linear-gradient(180deg, black, transparent);
+}

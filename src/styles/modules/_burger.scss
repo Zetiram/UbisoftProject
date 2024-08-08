@@ -1,0 +1,33 @@
+.imgInactive {
+	transform: scaleY(-1);
+/*	animation-name: anim;
+	animation-duration: 0.4s;*/
+}
+
+/*@keyframes anim {
+	0%{ 
+		transform: rotate(350deg);
+	}
+
+	25%{
+		trasform: rotate(315deg);
+	}
+
+	50%{
+		transform: rotate(270deg);
+	}
+
+	100% {
+		transform: rotate(180deg);
+	}
+}*/
+
+.imgActive {
+	transform: scaleY(1);
+/*	animation-name: anim;
+	animation-duration: 0.4s;*/
+}
+
+.nothing {
+	display: none;
+}

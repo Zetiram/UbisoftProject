@@ -1,0 +1,17 @@
+@use 'general' as *;
+.CorpContainer {
+	text-align: center;
+	padding: 0 30px;
+	margin-top: 1rem;
+}
+
+.CorpContainerUl__li {
+	margin-bottom: 1.5rem;
+}
+
+.CorpItem--a {
+ 	color: $CorpAColor;
+ 	font-size: 14px;
+ 	font-weight: normal;
+}
+

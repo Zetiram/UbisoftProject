@@ -1,0 +1,65 @@
+@use 'general' as *;
+
+.ExploreGamesSection {
+	background-color: #fff;
+}
+
+
+.ViewGamesCarouselItem__Container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.ViewGamesCarouselItem__Container--img {
+	width: 70%;
+}
+
+.ViewGamesCarouselItem__Container--a {
+	margin: 10px 0px;
+	color: black;
+	text-align: center;
+	padding: 0 5px;
+	font-size: medium;
+}
+
+.LogosContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Logos {
+	margin: 0 1px;
+	width: 15px;
+	height: 15px;
+}
+
+.ViewGames__Container {
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+.ExploreGamesCarouselBtns {
+	bottom: 0;
+}
+
+.ExploreGamesCarouselBtn--btn{
+	background-color: rgb(207 207 207 / 20%);
+	height: 2.7rem;
+}
+
+.ExploreGamesCarouselBtn--btn:active{
+	background-color: rgb(175 175 175 / 20%);
+}
+
+
+
+.PinkBtn {
+	height: 3rem;
+	border-radius: 30px;
+	width: 60%;
+}
