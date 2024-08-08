@@ -2,7 +2,7 @@
 # Ubisoft Main Page Copy
 
 ## Introducción
-Este proyecto busca destacar en comparación con los clones de Netflix y Airbnb, al replicar la página principal de Ubisoft, una empresa de videojuegos que ha influenciado mi infancia y que sigo disfrutando.
+Este proyecto busca destacar en comparación con los clones de Netflix y Airbnb, así que decidí replicar la página principal de Ubisoft, una empresa de videojuegos que ha influenciado mi infancia y que sigo disfrutando.
 
 ## Tecnologías
 - Lenguaje de programación: JavaScript
@@ -32,7 +32,7 @@ Este proyecto busca destacar en comparación con los clones de Netflix y Airbnb,
 # Copy of Ubisoft homepage
 
 ##Introduction
-This project seeks to stand out compared to the clones of Netflix and Airbnb, by replicating the main page of Ubisoft, a video game company that has influenced my childhood and that I continue to enjoy.
+This project seeks to stand out compared to the clones of Netflix and Airbnb, so I decided to replicating the main page of Ubisoft, a video game company that has influenced my childhood and that I continue to enjoy.
 
 ##Technologies
 - Programming language: JavaScript
